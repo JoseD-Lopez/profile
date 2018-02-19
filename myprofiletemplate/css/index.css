@@ -1,0 +1,139 @@
+h3{
+	text-align: center;
+}
+h5{
+	font: 17px;
+}
+h4{
+	font-size: 16px;
+}
+ul{
+	font-size: 16px;
+}
+p{
+	font-size: 16px;
+}
+.topSpartaIcon{
+ width: 90px;
+ float:left;
+ margin:3px;
+}
+.navbar-default{
+	background-color: #000;
+}
+.nav li.active a{
+	background-color: #000 !important;
+}
+.navbar-default .navbar-nav>.active>a{
+	  text-decoration: none;
+	  font-size: 17px;
+	  color: #E13A63;
+}
+.navbar-default .navbar-nav>li>a {
+   color: #fff;
+   text-decoration: none;
+}
+#profile-description-div{
+  margin: auto 3%;
+}
+#headshot{
+  border-radius: 100%;
+  height: 100%;
+  width: 100%;
+}
+.left{
+	float: left;
+}
+.right {
+	float:right;
+	width: 100%;
+}
+#bio{
+	float:left;
+}
+
+#academyExperiance{
+  width: 67%;
+}
+#education{
+	width: 90%;
+    margin-left: 3%;
+}
+.edulist{
+	width: 40%;
+	float: left;
+}
+.finalyearProject{
+	width:53%;
+	float: right;
+	margin-top: 10%;
+}
+.row{
+	margin-bottom: 3%;
+}
+@media print {
+.left {
+	width: 35%;
+}
+h1, h4{
+	color:black;
+}
+.right {
+	float:none;
+	width: 100%;
+}
+	header, .experience {
+	padding: 10px;
+  }
+  #headshot {
+	display: none;
+	text-align: center;
+	margin: 50px auto 0;
+}
+#logo{
+	display: none;
+}
+.navbar{
+	display: none;
+}
+.experience {
+	display: inline-block;
+	clear: both;
+	margin-top: 30px;
+	text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px){
+.left {
+	width: 35%;
+}
+
+.right {
+	width: 60%;
+}
+header, .experience {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 93%;
+    margin: 3%;
+}
+  }
+  #headshot {
+	display: block;
+	text-align: center;
+	margin: 50px auto 0;
+}
+
+.experience {
+	width: 90;
+	display: inline-block;
+	clear: both;
+  }
+  h4{
+  	text-align: center;
+  }
+  .container{
+  	margin-left: 0 80px;
+  }
+}
